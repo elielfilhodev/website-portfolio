@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio | Desenvolvedor</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">Eliel<span>Filho</span></div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Olá, eu sou <span class="typed-text"></span></h1>
+                <p>Desenvolvedor Full Stack criando soluções digitais inovadoras</p>
+                <a href="#projects" class="btn">Ver Projetos</a>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpeg" alt="Foto de perfil">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre <span>Mim</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="./images/profile.jpeg" alt="Sobre mim">
+                </div>
+                <div class="about-text">
+                    <h3>Desenvolvedor Full Stack</h3>
+                    <p>Com mais de 5 anos de experiência no desenvolvimento de aplicações web e mobile, tenho trabalhado com diversas tecnologias para criar soluções eficientes e escaláveis.</p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <span>Nome: </span>
+                            <p> Eliel Filho</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Email: </span>
+                            <p> elielfilho9@outlook.com</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Experiência: </span>
+                            <p> 5+ anos</p>
+                        </div>
+                        <div class="info-item">
+                            <span>Freelance: </span>
+                            <p>Disponível</p>
+                        </div>
+                    </div>
+                    <a href="./CV - Eliel FIlho.pdf" class="btn">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Minhas <span>Habilidades</span></h2>
+            <div class="skills-content">
+                <div class="skills-left">
+                    <h3>Minhas habilidades criativas e experiências</h3>
+                    <p>Desenvolvo aplicações web e mobile utilizando as tecnologias mais modernas do mercado. Minha abordagem combina design atraente com funcionalidade robusta para entregar produtos de alta qualidade.</p>
+                    <a href="#contact" class="btn">Contate-me</a>
+                </div>
+                <div class="skills-right">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>HTML/CSS</h4>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress html-css"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>JavaScript</h4>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress javascript"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>React</h4>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress react"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>Node.js</h4>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress node"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <h4>Python</h4>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress python"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos <span>Recentes</span></h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Web</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="design">Design</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item" data-category="web">
+                    <div class="project-image">
+                        <img src="images/projects/project1.jpg" alt="Projeto 1">
+                        <div class="project-overlay">
+                            <h3>E-commerce Platform</h3>
+                            <p>Plataforma completa de e-commerce com carrinho de compras e pagamento integrado</p>
+                            <a href="#" class="project-link">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="mobile">
+                    <div class="project-image">
+                        <img src="images/projects/project2.jpg" alt="Projeto 2">
+                        <div class="project-overlay">
+                            <h3>App de Finanças</h3>
+                            <p>Aplicativo mobile para gestão financeira pessoal com gráficos e relatórios</p>
+                            <a href="#" class="project-link">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="web">
+                    <div class="project-image">
+                        <img src="images/projects/project3.jpg" alt="Projeto 3">
+                        <div class="project-overlay">
+                            <h3>Portal de Notícias</h3>
+                            <p>Sistema de gerenciamento de conteúdo para portal de notícias</p>
+                            <a href="#" class="project-link">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="design">
+                    <div class="project-image">
+                        <img src="images/projects/project4.jpg" alt="Projeto 4">
+                        <div class="project-overlay">
+                            <h3>Identidade Visual</h3>
+                            <p>Criação de identidade visual completa para marca de moda</p>
+                            <a href="#" class="project-link">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="mobile">
+                    <div class="project-image">
+                        <img src="images/projects/project5.jpg" alt="Projeto 5">
+                        <div class="project-overlay">
+                            <h3>App de Fitness</h3>
+                            <p>Aplicativo para acompanhamento de exercícios e dieta</p>
+                            <a href="#" class="project-link">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="web">
+                    <div class="project-image">
+                        <img src="images/projects/project6.jpg" alt="Projeto 6">
+                        <div class="project-overlay">
+                            <h3>Dashboard Analytics</h3>
+                            <p>Painel administrativo com visualização de dados em tempo real</p>
+                            <a href="#" class="project-link">Ver detalhes</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em <span>Contato</span></h2>
+            <div class="contact-content">
+                <div class="contact-left">
+                    <h3>Fale comigo</h3>
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <p>elielfilho9@outlook.com</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <p>+55 (14) 99823-3642</p>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Taquarituba - SP, Brasil</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/elielfilhodev"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/eliel-filho-8083a3359/"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/elielfilho.dev/"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Seu Nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Seu Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Assunto" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Sua Mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Eliel Filho. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</body>
+</html>
